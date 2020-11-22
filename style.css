@@ -1,6 +1,24 @@
+body{
+    background-color: #f4ddfd;
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.home_greeting {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .navbar {
-    overflow: auto;
-    background-color: #222040;
+    overflow: hidden;
+    background-color: #090b3d;
     width: 100%
 }
 
@@ -14,7 +32,6 @@
     width: 25%;
 }
 
-
 .navbar a:hover {
     background-color: #c1dcff;
     color: black;
@@ -24,3 +41,4 @@
     background-color: #4CAF50;
     color: white;
 }
+
