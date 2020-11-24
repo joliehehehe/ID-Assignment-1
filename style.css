@@ -11,29 +11,44 @@ p {
     font-size: 25px;
 }
 
+form{
+    text-align: center;
+    font-size: 25px
+}
+
 .navbar {
     overflow: hidden;
     background-color: #090b3d;
-    width: 100%
+    width: 100%;
+    position: fixed;
 }
 
-.navbar a {
+body nav img {
+    float: left;
+    width: 5%;
+    margin: 10px 22.6px;
+}
+
+.navbar a.nav {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 12px 0px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     text-decoration: none;
-    font-size: 25px;
-    width: 25%;
+    font-size: 30px;
+    width: 23%;
+    margin-left: 5px;
+    margin: auto;
 }
 
-.navbar a:hover {
+.navbar a.nav:hover {
     background-color: #c1dcff;
     color: black;
 }
 
-.navbar a.active {
-    background-color: #4CAF50;
+.navbar a.nav:active {
+    background-color: #e783ff;
     color: white;
 }
 
@@ -46,7 +61,7 @@ p {
 .home_bg {
     opacity: 0.5;
     border-style: solid;
-    border-width: 50px;
+    border-width: 70px;
     border-color: #e4faff;
 }
 
@@ -62,30 +77,31 @@ p {
     text-align: center;
     color: blanchedalmond;
     background-color: #090b3d;
-    width: 500px;
-    padding: 20px 30px;
-    margin: 20px auto;
+    width: 300px;
+    padding: 30px;
+    margin: 70px auto 30px;
 }
 
-.image{
-    width: 70%;
-    margin: 20px;
-    
-}
 
 .container{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 140px;
 }
 
 .split{
     flex-basis: 46%;
     display: flex;
     flex-direction: column;
-    padding: 2%
 }
 
 .myworks {
+    margin: 20px;
+}
+
+section div#collage img {
     margin: 20px;
 }

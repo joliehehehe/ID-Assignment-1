@@ -6,15 +6,16 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Jolie's Portfolio Site</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="normalize.css" rel="normalizesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#work">Works</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html"><img src="images/icon.png" alt="icon"></a>
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="#about">About</a>
+        <a class="nav" href="#work">Works</a>
+        <a class="nav" href="#contact">Contact</a>
     </nav>
 
     <header class="home">
@@ -27,10 +28,10 @@
     </header>
 
     <section>
-        <h2 class="box">About Me</h2>
+        <a id="about"><h2 class="box">About Me</h2></a>
         <div class="container">
             <div>
-                <img src="images/me.jpeg" alt="Picture of Jolie Ng" class="image">
+                <img src="images/me.jpeg" alt="Picture of Jolie Ng" width=70%>
             </div>
             <div class="split">
                 <p>Hello! My name is Jolie. I am an aspiring 3D artist and
@@ -48,17 +49,35 @@
     </section>
 
     <section>
-        <h2 class="box">My Works</h2>
-        <div class="myworks">
-            <img src="images/miku day 2020.png" width=300px>
-            <img src="images/misubday.png" width=300px>
-            <img src="images/organ transplant.png" width=300px>
-            <img src="images/pucpuc.png" width=300px>
-            <img src="images/rankalee.png" width=300px>
-            <img src="images/shinobu spam.png" width=300px>
+        <a id="work"></a><h2 class="box">My Works</h2></a>
+        <div class="container" id="collage">
+            <img src="images/miku day 2020.png" width=400px>
+            <img src="images/misubday.png" width=400px>
+            <img src="images/organ transplant.png" width=400px>
+            <img src="images/pucpuc.png" width=400px>
+            <img src="images/rankalee.png" width=400px>
+            <img src="images/shinobu spam.png" width=800px>
         </div>
     </section>
-    
+
+    <section>
+        <a id="contact"></a><h2 class="box">Contact Me</h2></a>
+        <div class="container">
+            <form>
+                <label for "name">Your name</label><br>
+                <input type="text" id="name" name="name" placeholder="E.g. Mary Sue" required><br>
+      
+                <br><label for "email">Your email</label><br>
+                <input type="email" id="email" name="email" placeholder="xxx@gmail.com" required><br>
+
+                <br><label for "message">What would you like to say?</label><br>
+                <textarea rows="4" cols="50" id="message" name="message" placeholder="Leave a message :)" required></textarea><br>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+
 </body>
 
 </html>
