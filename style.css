@@ -196,6 +196,9 @@ section div#collage img {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
     .split {
         flex: 1 100%;
         flex-grow: inherit;
@@ -211,7 +214,7 @@ section div#collage img {
         width: 93%;
     }
     .home {
-        width: inherit;
+        width: 100%;
     }
     .nav {
         width: 100%;
