@@ -76,13 +76,23 @@ p {
     text-justify: inter-word;
     font-size: 25px;
     margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .split{
-    flex-basis: 25%;
+    flex-basis: 40%;
     display: flex;
     flex-direction: column;
 }
+
+.split img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    float: center;
+}
+
 
 /* Reused throughout */
 .box{
@@ -90,9 +100,9 @@ p {
     text-align: center;
     color: blanchedalmond;
     background-color: #090b3d;
-    width: 280px;
+    width: 30%;
     padding: 30px;
-    margin: 70px auto 30px;
+    margin: 70px auto 70px;
 }
 
 
@@ -178,10 +188,32 @@ section div#collage img {
     font-size: 34px;
 }
 
-/* @media (max-width: 576px) {
+.contactme {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
     .split {
-        flex: 1 46%;
+        flex: 1 100%;
         flex-grow: inherit;
 
     }
-} */
+    .home_greeting {
+        font-size: inherit;
+    }
+    .images {
+        width: inherit;
+    }
+    #horizontal {
+        width: 93%;
+    }
+}
+
+@media (max-width: 900px) {
+    #horizontal {
+        width: 93%;
+    }
+    .contactme {
+        text-align: center;
+    }
+}
