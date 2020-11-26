@@ -1,6 +1,7 @@
 body{
     background-color: #f4ddfd;
     margin: 0px auto;
+    align-content: center;
 }
 
 
@@ -56,6 +57,7 @@ body nav img {
 }
 
 .home_bg {
+    display: flex;
     opacity: 0.5;
     border-style: solid;
     border-width: 30px;
@@ -206,6 +208,15 @@ section div#collage img {
     }
     #horizontal {
         width: 93%;
+    }
+    .home_bg {
+        width: inherit;
+    }
+    .navbar a {
+        font-size: inherit;
+    }
+    section {
+        float: center;
     }
 }
 
