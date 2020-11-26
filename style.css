@@ -54,6 +54,7 @@ body nav img {
     position: relative;
     text-align: center;
     color: black;
+    width: 100%;
 }
 
 .home_bg {
@@ -209,14 +210,13 @@ section div#collage img {
     #horizontal {
         width: 93%;
     }
-    .home_bg {
+    .home {
         width: inherit;
     }
-    .navbar a {
+    .nav {
+        width: 100%;
         font-size: inherit;
-    }
-    section {
-        float: center;
+        padding: inherit;
     }
 }
 
