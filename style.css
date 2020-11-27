@@ -1,3 +1,4 @@
+/* Main body  */
 body{
     background-color: #f4ddfd;
     margin-left: auto;
@@ -7,10 +8,40 @@ body{
     vertical-align: middle
 }
 
+/* Reused throughout in other sections */
+.box{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: #090b3d;
+    width: 30%;
+    padding: 30px;
+    margin: 70px auto 70px;
+}
 
-form{
-    text-align: left;
-    font-size: 25px
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.split{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.split img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    float: center;
 }
 
 /* Navigation Bar */
@@ -89,42 +120,6 @@ p {
     margin-right: 40px;
 }
 
-.split{
-    flex-basis: 40%;
-    display: flex;
-    flex-direction: column;
-}
-
-.split img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-    float: center;
-}
-
-
-/* Reused throughout */
-.box{
-    font-family: 'Abril Fatface', cursive;
-    font-size: 36px;
-    text-decoration: none;
-    text-align: center;
-    color: blanchedalmond;
-    background-color: #090b3d;
-    width: 30%;
-    padding: 30px;
-    margin: 70px auto 70px;
-}
-
-
-.container{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 140px;
-}
 
 /* My works page */
 .myworks {
@@ -205,6 +200,11 @@ section div#collage img {
     text-align: left;
 }
 
+form{
+    text-align: left;
+    font-size: 25px
+}
+
 input {
     border: 3px solid #090b3d;
 }
@@ -235,6 +235,7 @@ textarea {
     vertical-align: middle;
 }
 
+/* Media query for responsiveness */
 @media (max-width: 768px) {
     body {
         width: 100%;
