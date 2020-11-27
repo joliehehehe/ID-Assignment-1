@@ -22,7 +22,7 @@ I designed my website this way as I thought that it would be nice and simple for
 - Visual Studio Code
 
 ## Testing
-* ----
+* 
 
 ## Credits
 ### Content

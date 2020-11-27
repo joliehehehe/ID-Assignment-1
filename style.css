@@ -1,6 +1,7 @@
 body{
     background-color: #f4ddfd;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
     align-content: center;
     vertical-align: middle
 }
@@ -104,7 +105,8 @@ p {
 /* Reused throughout */
 .box{
     font-family: 'Abril Fatface', cursive;
-    font-size: 37px;
+    font-size: 36px;
+    text-decoration: none;
     text-align: center;
     color: blanchedalmond;
     background-color: #090b3d;
@@ -217,6 +219,19 @@ textarea {
     border-radius: 5px;
     text-align: center;
     color: white
+}
+
+.backhome {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 37px;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: #090b3d;
+    width: 30%;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
 }
 
 @media (max-width: 768px) {
