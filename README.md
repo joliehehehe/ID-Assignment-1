@@ -2,7 +2,10 @@
 In this project, I will be creating a portfolio site for my personal art. It aims to show people my art, as well as information about myself.
 
 ## Design Process
-I designed my website this way as I thought that it would be nice and simple for users to use. This website is for employers who will take a look at my work for an interview.
+https://xd.adobe.com/view/cbdc0a08-6a09-43fc-bf73-60070db09264-9e8f/
+This is my initial wireframe for my website. I designed the wireframe this way as I thought that it would be nice and simple for users to use. Information is not too messy and can be easily spotted on the website.
+
+This website is for employers who will take a look at my work for an interview.
 
 - As an interested employer/client, I want to be able to have access to a digital portfolio so that I can see the capabilities and skills of the person I might hire.
 
