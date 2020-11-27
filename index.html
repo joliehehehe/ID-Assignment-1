@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width">
     <title>Jolie's Portfolio Site</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Merriweather:wght@300&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -50,8 +52,18 @@
     </section>
 
     <section>
-        <a id="work"></a><h2 class="box">My Works</h2></a>
+        <a id="work"><h2 class="box">My Works</h2></a>
         <div class="container" id="collage">
+
+            <div class="frame">
+                <img src="images/meery xmass.png" class="image" width=400px>
+                <div class="caption">Christmas & Friends</div>
+                <div class="date">25 December 2018</div>
+                <div class="desciption">
+                    Illustration of my original character for Christmas. Surrounding
+                    her are tiny versions of my close online and real life friends. 
+                    One of my first attempts at lineless art with a more painty style.</div>
+            </div>
 
             <div class="frame">
                 <img src="images/organ transplant.png" class="image" width=400px>
@@ -88,6 +100,16 @@
                     Monogatari Series' Hanekawa Tsubasa, Black
                     Hanekawa as well as the Hystery Tiger. Here, I
                     have only applied a black and white colouring.</div>
+            </div>
+
+            <div class="frame">
+                <img src="images/kuro travels.png" class="image" width=400px>
+                <div class="caption">Travel Time</div>
+                <div class="date">29 Feburary 2020</div>
+                <div class="desciption">
+                    My original character along with my in real life friend. 
+                    Drawn in reference to a trip to Kuala Lumpur in 2019 after 
+                    our O Level Examinations.</div>
             </div>
 
             <div class="frame">
@@ -172,25 +194,25 @@
     </section>
 
     <section>
-        <a id="contact"></a><h2 class="box">Contact Me</h2></a>
+        <a id="contact"><h2 class="box">Contact Me</h2></a>
         <div class="container">
             <div class="platforms">
-                Follow my <a href="https://www.instagram.com/kuroni360/">Instagram</a>!
+                Follow my <a href="https://www.instagram.com/kuroni360/"  target="_blank">Instagram</a>!
                 <br>
                 <br>
-                Check out my <a href="https://www.linkedin.com/in/jolie-ng-0623161a8/">LinkedIn</a>!
+                Check out my <a href="https://www.linkedin.com/in/jolie-ng-0623161a8/"  target="_blank">LinkedIn</a>!
                 <br>
                 <br>
                 Email me at <u>jolie.ngwz@gmail.com</u>!
             </div>
             <form class="contactme">
-                <label for "name">Your name</label><br>
+                <label>Your name</label><br>
                 <input type="text" name="name" placeholder="E.g. Mary Sue" required><br>
       
-                <br><label for "email">Your email</label><br>
+                <br><label>Your email</label><br>
                 <input type="email" name="email" placeholder="xxx@gmail.com" required><br>
 
-                <br><label for "message">What would you like to say?</label><br>
+                <br><label>What would you like to say?</label><br>
                 <textarea name="message" placeholder="Leave a message :)" required></textarea><br>
 
                 <button>Submit</button>
@@ -198,6 +220,9 @@
         </div>
     </section>
 
+    <div class="container">
+        <button class="box">Back Home</button>
+    </div>
 </body>
 
 </html>

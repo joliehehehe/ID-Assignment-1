@@ -2,6 +2,7 @@ body{
     background-color: #f4ddfd;
     margin: 0px auto;
     align-content: center;
+    vertical-align: middle
 }
 
 
@@ -29,6 +30,7 @@ body nav img {
 }
 
 .navbar a.nav {
+    font-family: 'Anton', sans-serif;
     float: center;
     color: #f2f2f2;
     text-align: center;
@@ -58,7 +60,7 @@ body nav img {
 }
 
 .home_bg {
-    display: flex;
+    width: auto;
     opacity: 0.5;
     border-style: solid;
     border-width: 30px;
@@ -67,6 +69,7 @@ body nav img {
 }
 
 .home_greeting {
+    font-family: 'Abril Fatface', cursive;
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -75,6 +78,7 @@ body nav img {
 }
 
 p {
+    font-family: 'Merriweather', serif;
     text-align: justify;
     text-justify: inter-word;
     font-size: 25px;
@@ -99,6 +103,7 @@ p {
 
 /* Reused throughout */
 .box{
+    font-family: 'Abril Fatface', cursive;
     font-size: 37px;
     text-align: center;
     color: blanchedalmond;
@@ -182,17 +187,36 @@ section div#collage img {
 
 /* Contact me page */
 .platforms {
+    font-family: 'Merriweather', serif;
     background-color: #c1dcff;
     color: black;
     width: 450px;
     padding: 45px;
     margin: 20px;
     text-align: center;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .contactme {
+    font-family: 'Merriweather', serif;
     text-align: left;
+}
+
+input {
+    border: 3px solid #090b3d;
+}
+
+textarea {
+    border: 3px solid #090b3d;
+}
+
+.contactme button {
+    border: none;
+    background-color: #f59dfd;
+    padding: 5%;
+    border-radius: 5px;
+    text-align: center;
+    color: white
 }
 
 @media (max-width: 768px) {
@@ -205,7 +229,7 @@ section div#collage img {
 
     }
     .home_greeting {
-        font-size: inherit;
+        font-size: 20px;
     }
     .images {
         width: inherit;
