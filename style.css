@@ -2,6 +2,7 @@ body{
     background-color: #f4ddfd;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     align-content: center;
     vertical-align: middle
 }
