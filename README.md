@@ -1,8 +1,8 @@
 # ID Assignment 1 - My Portfolio
-In this project, I will be creating a [portfolio site] (https://joliehehehe.github.io/ID-Assignment-1-My-Portfolio/) for my personal art. It aims to show people my art, as well as information about myself.
+In this project, I will be creating a [portfolio site](https://joliehehehe.github.io/ID-Assignment-1-My-Portfolio/) for my personal art. It aims to show people my art, as well as information about myself.
 
 ## Design Process
-This is my [initial wireframe] (https://xd.adobe.com/view/cbdc0a08-6a09-43fc-bf73-60070db09264-9e8f/) for my website. I designed the wireframe this way as I thought that it would be nice and simple for users to use. Information is not too messy and can be easily spotted on the website.
+This is my [initial wireframe](https://xd.adobe.com/view/cbdc0a08-6a09-43fc-bf73-60070db09264-9e8f/) for my website. I designed the wireframe this way as I thought that it would be nice and simple for users to use. Information is not too messy and can be easily spotted on the website.
 
 This website is for employers who will take a look at my work for an interview.
 
