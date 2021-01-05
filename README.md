@@ -1,5 +1,5 @@
 # ID Assignment 1 - My Portfolio
-In this project, I will be creating a portfolio site for my personal art. It aims to show people my art, as well as information about myself.
+In this project, I will be creating a portfolio site (https://joliehehehe.github.io/ID-Assignment-1-My-Portfolio/) for my personal art. It aims to show people my art, as well as information about myself.
 
 ## Design Process
 https://xd.adobe.com/view/cbdc0a08-6a09-43fc-bf73-60070db09264-9e8f/
